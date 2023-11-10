@@ -2,11 +2,14 @@ package jpabook2.jpashop.domain;
 
 import jakarta.persistence.*;
 import jpabook2.jpashop.domain.item.Item;
+import lombok.AccessLevel;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
 @Getter @Setter
+@NoArgsConstructor(access = AccessLevel.PROTECTED) // 생성자 접근 제약 :: 외부에서 직접 생성 불가능
 public class OrderItem {
 
     @Id @GeneratedValue
