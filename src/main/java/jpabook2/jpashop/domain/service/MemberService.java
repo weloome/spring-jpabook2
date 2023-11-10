@@ -3,7 +3,6 @@ package jpabook2.jpashop.domain.service;
 import jpabook2.jpashop.domain.Member;
 import jpabook2.jpashop.domain.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -37,7 +36,6 @@ public class MemberService {
     }
 
     // 회원 단 건 조회
-
     public Member findOne(Long memberId) {
         return memberRepository.findOne(memberId);
     }
