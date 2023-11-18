@@ -1,4 +1,4 @@
-package jpabook2.jpashop.domain.service;
+package jpabook2.jpashop.service;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.persistence.EntityManager;

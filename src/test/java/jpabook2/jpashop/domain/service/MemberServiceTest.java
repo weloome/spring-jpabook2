@@ -2,7 +2,8 @@ package jpabook2.jpashop.domain.service;
 
 import jakarta.transaction.Transactional;
 import jpabook2.jpashop.domain.Member;
-import jpabook2.jpashop.domain.repository.MemberRepository;
+import jpabook2.jpashop.repository.MemberRepository;
+import jpabook2.jpashop.service.MemberService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

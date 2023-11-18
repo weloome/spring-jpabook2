@@ -1,4 +1,4 @@
-package jpabook2.jpashop.domain.repository;
+package jpabook2.jpashop.repository;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
